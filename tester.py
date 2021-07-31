@@ -25,7 +25,7 @@ def WGAN_tester(opt):
     # ----------------------------------------
     #      Initialize training parameters
     # ----------------------------------------
-
+    results_path = "results"
     # configurations
     if not os.path.exists(results_path):
         os.makedirs(results_path)
